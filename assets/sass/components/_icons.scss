@@ -6,26 +6,55 @@
 
 /* Icons */
 
-	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
 
-		li {
-			display: inline-block;
-			padding: 0 0.75em 0 0;
+  li {
+    display: inline-block;
+    padding: 0 0.75em 0 0;
 
-			&:last-child {
-				padding-right: 0;
-			}
+    &:last-child {
+      padding-right: 0;
+    }
 
-			> a, > span {
-				border: 0;
-				@include icon;
+    > a,
+    > span {
+      border: 0;
+      @include icon;
 
-				.label {
-					display: none;
-				}
-			}
-		}
-	}
+      .label {
+        display: none;
+      }
+    }
+  }
+}
+
+.referals {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+
+  li {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+}
