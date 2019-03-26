@@ -1,0 +1,20 @@
+///
+/// Hyperspace by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Language */
+
+.language-box {
+  display: flex;
+  justify-content: flex-end;
+  font-size: small;
+  padding-left: 20px;
+  padding-top: 20px;
+
+  select {
+    width: 70px;
+    font-size: small;
+  }
+}

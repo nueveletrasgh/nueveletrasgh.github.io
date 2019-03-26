@@ -2098,6 +2098,17 @@ table {
   .wrapper.fade.inactive > .inner, body.is-preload .wrapper.fade > .inner {
     opacity: 0; }
 
+/* Language */
+.language-box {
+  display: flex;
+  justify-content: flex-end;
+  font-size: small;
+  padding-left: 20px;
+  padding-top: 20px; }
+  .language-box select {
+    width: 70px;
+    font-size: small; }
+
 /* Header */
 #header {
   display: -moz-flex;
